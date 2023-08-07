@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 2, 9, 0.7),rgba(0, 0, 0, 0.7)),url(backk.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+  
+nav img{
+    width: 150px;
+
+}
+
+.navbar-head {
+    color: green;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: green;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+
+
+.url {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+
+h1 {
+    text-align: center;
+    color: white;
+    
+}
+
+p {
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+    
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: black;
+  }
+
+  a {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+  }
+
+  .btn-1 {
+    padding: 10px 10px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-1:hover {
+    background-color: black;
+  }
+
+  a {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: white;
+  }
+
+  img {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    display: block;
+  }
+
+  
+.highlight{
+    border-bottom: 4px solid rgb(132, 0, 255);
+}
+
+
+
+
+
+
+
+
+/* Footer Css */
+.footer__container {
+    padding: 5rem 0;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+
+  
+  
+  
+ 
+  
+ 
+  

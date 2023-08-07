@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="/css/new.css">
+    <title>CUT SHORT</title>
+</head>
+<body>
+        <section class="header">
+        
+
+                
+                <!--Navbar Section-->
+            <nav class="navbar">
+            <div class="navbar-head">
+                <a href="/" id="navbar__logo">CUT <br>SHORT</a>
+            </div>
+          
+
+    </nav>
+
+    <section class="short">
+
+      <h1>Shorten your link with ease</h1>
+      <h2>Nothing does it better than <em>CUT SHORT</em></h2>
+      
+   
+
+      
+      <form action="/user/dashboard/new/shorten" method="post">
+        <input type="text" name="longUrl" placeholder="Long URL" required />
+        <input type="text" name="shortUrl" placeholder="Short URL (optional)" />
+        <input type="submit" value="Shorten" />
+      </form>
+      
+      
+      
+      <h3 id="shortenedUrlHeading" style="display: none;">Shortened URL:</h3>
+      <p id="shortenedUrl" style="display: none;"></p>
+      
+    <h3 id="qrcodeHeading" style="display: none;">QR Code:</h3>
+    <img id="qrcode" style="display: none;" alt="QR Code" />
+
+    <script src="/js/script.js"></script>
+  </body>
+  </html>
+  
+  
+  <div>
+    <button class="btn" id="btn" ><a href="/user/dashboard">Back to Dashboard</a></button>
+    <button class="btn" id="btn" ><a href="/user/dashboard/clicks">View link history</a></button>
+    
+  </div>
+  
+  
+</section>
+
+        <!-- Footer Section -->
+ <div class="footer__container">
+  <p>Cut Short 2023 - All rights reserved</p>
+  <p>Happydave Digital Solutions</p>
+</div>
+
+
+  </body>
+</html>
+
+

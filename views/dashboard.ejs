@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="/css/dashboard.css">
+    <title>CUT SHORT</title>
+</head>
+<body>
+        <section class="header">
+        
+
+                
+                <!--Navbar Section-->
+            <nav class="navbar">
+            <div class="navbar-head">
+                <a href="/" id="navbar__logo">CUT <br>SHORT</a>
+            </div>
+           
+
+    </nav>
+
+<section class="dash">
+
+  <% if (loggedIn) { %>
+    <h1>Hello, <%= username %>!</h1>
+    <% } else { %>
+      <h1>Welcome!</h1>
+      <% } %>
+      <h2>Welcome to the best link shortener you'd ever use.</h2>
+      
+      
+      
+      <div>
+        <div class="yes">
+            <h3>Get Started</h3>
+            <button class="btn" id="btn" ><a href="/user/dashboard/new">SHORTEN LINK</a></button>
+            <button class="btn-1" id="btn" > <a href="/user/dashboard/clicks">VIEW LINK HISTORY</a></button>
+
+            <div class="out">
+
+              <button class="btn-2" id="btn" > <a href="/user/logout">LOG OUT</a></button>
+            
+            </div>
+
+        </div>
+    </div>
+    
+  </section>
+    
+    <!-- Footer Section -->
+ <div class="footer__container">
+  <p>Cut Short 2023 - All rights reserved</p>
+  <p>Happydave Digital Solutions</p>
+</div>
+
+
+<script type="application/json" src="/dashboard.js"></script>
+
+  </body>
+</html>
